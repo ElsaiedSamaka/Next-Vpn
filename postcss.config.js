@@ -1,7 +1,13 @@
 const purgecss = [
   "@fullhuman/postcss-purgecss",
   {
-    content: ["./components/**/*.js", "./pages/**/*.js"],
+    content: [
+      "./pages/*.js",
+      "./pages/**/*.js",
+      "./components/*.js",
+      "./components/**/*.js",
+    ],
+    whitelistPatterns: [/^slick-/],
     defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
   },
 ];
