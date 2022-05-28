@@ -137,7 +137,7 @@ const Pricing = () => {
             Huge Global Network of Fast VPN{" "}
           </h3>
           <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
-            See LaslesVPN everywhere to make it easier for you when you move
+            See NextVpn everywhere to make it easier for you when you move
             locations.
           </p>
           <div className="py-12 w-full px-8 mt-16">
